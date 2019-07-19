@@ -1,0 +1,392 @@
+# Created by https://www.gitignore.io/api/webstorm
+# Edit at https://www.gitignore.io/?templates=webstorm
+
+### WebStorm ###
+# Covers JetBrains IDEs: IntelliJ, RubyMine, PhpStorm, AppCode, PyCharm, CLion, Android Studio and WebStorm
+# Reference: https://intellij-support.jetbrains.com/hc/en-us/articles/206544839
+
+# User-specific stuff
+.idea/**/workspace.xml
+.idea/**/tasks.xml
+.idea/**/usage.statistics.xml
+.idea/**/dictionaries
+.idea/**/shelf
+
+# Generated files
+.idea/**/contentModel.xml
+
+# Sensitive or high-churn files
+.idea/**/dataSources/
+.idea/**/dataSources.ids
+.idea/**/dataSources.local.xml
+.idea/**/sqlDataSources.xml
+.idea/**/dynamic.xml
+.idea/**/uiDesigner.xml
+.idea/**/dbnavigator.xml
+
+# Gradle
+.idea/**/gradle.xml
+.idea/**/libraries
+
+# Gradle and Maven with auto-import
+# When using Gradle or Maven with auto-import, you should exclude module files,
+# since they will be recreated, and may cause churn.  Uncomment if using
+# auto-import.
+# .idea/modules.xml
+# .idea/*.iml
+# .idea/modules
+# *.iml
+# *.ipr
+
+# CMake
+cmake-build-*/
+
+# Mongo Explorer plugin
+.idea/**/mongoSettings.xml
+
+# File-based project format
+*.iws
+
+# IntelliJ
+out/
+
+# mpeltonen/sbt-idea plugin
+.idea_modules/
+
+# JIRA plugin
+atlassian-ide-plugin.xml
+
+# Cursive Clojure plugin
+.idea/replstate.xml
+
+# Crashlytics plugin (for Android Studio and IntelliJ)
+com_crashlytics_export_strings.xml
+crashlytics.properties
+crashlytics-build.properties
+fabric.properties
+
+# Editor-based Rest Client
+.idea/httpRequests
+
+# Android studio 3.1+ serialized cache file
+.idea/caches/build_file_checksums.ser
+
+### WebStorm Patch ###
+# Comment Reason: https://github.com/joeblau/gitignore.io/issues/186#issuecomment-215987721
+
+# *.iml
+# modules.xml
+# .idea/misc.xml
+# *.ipr
+
+# Sonarlint plugin
+.idea/sonarlint
+
+### Ruby ###
+*.gem
+*.rbc
+/.config
+/coverage/
+/InstalledFiles
+/pkg/
+/spec/reports/
+/spec/examples.txt
+/test/tmp/
+/test/version_tmp/
+/tmp/
+
+# Used by dotenv library to load environment variables.
+# .env
+
+# Ignore Byebug command history file.
+.byebug_history
+
+## Specific to RubyMotion:
+.dat*
+.repl_history
+build/
+*.bridgesupport
+build-iPhoneOS/
+build-iPhoneSimulator/
+
+## Specific to RubyMotion (use of CocoaPods):
+#
+# We recommend against adding the Pods directory to your .gitignore. However
+# you should judge for yourself, the pros and cons are mentioned at:
+# https://guides.cocoapods.org/using/using-cocoapods.html#should-i-check-the-pods-directory-into-source-control
+# vendor/Pods/
+
+## Documentation cache and generated files:
+/.yardoc/
+/_yardoc/
+/doc/
+/rdoc/
+
+## Environment normalization:
+/.bundle/
+/vendor/bundle
+/lib/bundler/man/
+
+# for a library or gem, you might want to ignore these files since the code is
+# intended to run in multiple environments; otherwise, check them in:
+# Gemfile.lock
+# .ruby-version
+# .ruby-gemset
+
+# unless supporting rvm < 1.11.0 or doing something fancy, ignore this:
+.rvmrc
+
+
+# End of https://www.gitignore.io/api/webstorm
+.idea/CJC_html.iml
+.idea/encodings.xml
+.idea/misc.xml
+.idea/modules.xml
+.idea/vcs.xml
+.jekyll-metadata
+.sass-cache/
+Gemfile.lock
+_site/
+vendor/cache/ruby/2.6.0/bin/
+vendor/cache/ruby/2.6.0/build_info/
+vendor/cache/ruby/2.6.0/doc/
+vendor/cache/ruby/2.6.0/extensions/
+vendor/cache/ruby/2.6.0/gems/activesupport-5.2.3/
+vendor/cache/ruby/2.6.0/gems/addressable-2.6.0/
+vendor/cache/ruby/2.6.0/gems/colorator-1.1.0/
+vendor/cache/ruby/2.6.0/gems/concurrent-ruby-1.1.5/
+vendor/cache/ruby/2.6.0/gems/em-websocket-0.5.1/.gitignore
+vendor/cache/ruby/2.6.0/gems/em-websocket-0.5.1/CHANGELOG.rdoc
+vendor/cache/ruby/2.6.0/gems/em-websocket-0.5.1/Gemfile
+vendor/cache/ruby/2.6.0/gems/em-websocket-0.5.1/README.md
+vendor/cache/ruby/2.6.0/gems/em-websocket-0.5.1/Rakefile
+vendor/cache/ruby/2.6.0/gems/em-websocket-0.5.1/examples/
+vendor/cache/ruby/2.6.0/gems/em-websocket-0.5.1/lib/
+vendor/cache/ruby/2.6.0/gems/em-websocket-0.5.1/spec/
+vendor/cache/ruby/2.6.0/gems/ethon-0.12.0/
+vendor/cache/ruby/2.6.0/gems/eventmachine-1.2.7/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/.gitignore
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/.gitmodules
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/.travis.yml
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/.yardopts
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/CHANGELOG.md
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/COPYING
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/Gemfile
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/LICENSE
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/LICENSE.SPECS
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/README.md
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/Rakefile
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/appveyor.yml
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/.sitearchdir.time
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/AbstractMemory.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/AbstractMemory.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/ArrayType.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/ArrayType.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Buffer.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Call.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Call.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/ClosurePool.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/ClosurePool.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/DynamicLibrary.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/DynamicLibrary.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Function.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Function.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/FunctionInfo.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/LastError.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/LastError.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/LongDouble.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/LongDouble.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Makefile
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/MappedType.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/MappedType.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/MemoryPointer.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/MemoryPointer.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/MethodHandle.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/MethodHandle.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Platform.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Platform.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Pointer.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Pointer.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Struct.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Struct.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/StructByValue.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/StructByValue.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/StructLayout.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Thread.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Thread.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Type.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Type.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Types.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Types.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/Variadic.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/compat.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/extconf.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/extconf.rb
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/ffi.c
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/ffi_c.bundle
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/.libs/libffi.7.dylib
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/.libs/libffi.dylib
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/.libs/libffi.la
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/.libs/libffi.lai
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/.libs/libffi_convenience.la
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/Makefile
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/config.log
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/config.status
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/fficonfig.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/include/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/libffi.la
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/libffi.pc
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/libffi_convenience.la
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/libtool
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/local.exp
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/man/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/.deps/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/.dirstamp
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/closures.lo
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/java_raw_api.lo
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/prep_cif.lo
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/raw_api.lo
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/types.lo
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/x86/.deps/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/x86/.dirstamp
+vendor/cache/ruby/2.6.
+0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/x86/ffi64.lo
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/x86/ffiw64.lo
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/x86/unix64.lo
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/src/x86/win64.lo
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/stamp-h1
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi-x86_64-darwin18/testsuite/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi.bsd.mk
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi.darwin.mk
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi.gnu.mk
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi.mk
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi.vc.mk
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi.vc64.mk
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/.appveyor.yml
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/.github/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/.gitignore
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/.travis.yml
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/.travis/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/ChangeLog.libffi
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/ChangeLog.libffi-3.1
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/ChangeLog.libgcj
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/ChangeLog.v1
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/LICENSE
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/LICENSE-BUILDTOOLS
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/Makefile.am
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/README.md
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/acinclude.m4
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/autogen.sh
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/config.guess
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/config.sub
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/configure.ac
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/configure.host
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/generate-darwin-source-and-headers.py
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/include/Makefile.am
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/include/ffi.h.in
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/include/ffi_cfi.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/include/ffi_common.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/libffi.map.in
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/libffi.pc.in
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/libffi.xcodeproj/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/libtool-version
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/m4/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/man/Makefile.am
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/man/ffi.3
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/man/ffi_call.3
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/man/ffi_prep_cif.3
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/man/ffi_prep_cif_var.3
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/msvcc.sh
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/src/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/stamp-h.in
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/testsuite/Makefile.am
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/testsuite/config/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/testsuite/lib/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/testsuite/libffi.bhaible/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/testsuite/libffi.call/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/testsuite/libffi.complex/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/libffi/testsuite/libffi.go/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/rbffi.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/rbffi_endian.h
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ext/ffi_c/win32/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/ffi.gemspec
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/lib/ffi.rb
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/lib/ffi/
+vendor/cache/ruby/2.6.0/gems/ffi-1.11.1/samples/
+vendor/cache/ruby/2.6.0/gems/forwardable-extended-2.6.0/
+vendor/cache/ruby/2.6.0/gems/html-proofer-3.11.0/
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/.gitignore
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/.gitmodules
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/Gemfile
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/Gemfile.lock
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/LICENSE-MIT
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/README.md
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/Rakefile
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/bench/
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/.gitignore
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/.sitearchdir.time
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/RubyHttpParserService.java
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/ext_help.h
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/extconf.rb
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/org/
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/ruby_http_parser.c
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/.gitkeep
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/AUTHORS
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/LICENSE-MIT
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/README.md
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/TODO
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/build.xml
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/http_parser.c
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/http_parser.gyp
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/http_parser.h
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/src/
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/test.c
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/tests.dumped
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/tes
+ts.utf8
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser-java/tools/
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser/AUTHORS
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser/CONTRIBUTIONS
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser/LICENSE-MIT
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser/README.md
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser/http_parser.c
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser/http_parser.gyp
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser/http_parser.h
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/ext/ruby_http_parser/vendor/http-parser/test.c
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/http_parser.rb.gemspec
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/lib/http/
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/lib/http_parser.rb
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/spec/
+vendor/cache/ruby/2.6.0/gems/http_parser.rb-0.6.0/tasks/
+vendor/cache/ruby/2.6.0/gems/i18n-0.9.5/
+vendor/cache/ruby/2.6.0/gems/jekyll-3.8.6/
+vendor/cache/ruby/2.6.0/gems/jekyll-bulma-0.2/
+vendor/cache/ruby/2.6.0/gems/jekyll-feed-0.12.1/
+vendor/cache/ruby/2.6.0/gems/jekyll-sass-converter-1.5.2/
+vendor/cache/ruby/2.6.0/gems/jekyll-seo-tag-2.6.1/
+vendor/cache/ruby/2.6.0/gems/jekyll-sitemap-1.3.1/
+vendor/cache/ruby/2.6.0/gems/jekyll-watch-2.2.1/
+vendor/cache/ruby/2.6.0/gems/kramdown-1.17.0/
+vendor/cache/ruby/2.6.0/gems/liquid-4.0.3/
+vendor/cache/ruby/2.6.0/gems/listen-3.1.5/
+vendor/cache/ruby/2.6.0/gems/mercenary-0.3.6/
+vendor/cache/ruby/2.6.0/gems/mini_portile2-2.4.0/
+vendor/cache/ruby/2.6.0/gems/minima-2.5.0/
+vendor/cache/ruby/2.6.0/gems/minitest-5.11.3/
+vendor/cache/ruby/2.6.0/gems/nokogiri-1.10.3/
+vendor/cache/ruby/2.6.0/gems/parallel-1.17.0/
+vendor/cache/ruby/2.6.0/gems/pathutil-0.16.2/
+vendor/cache/ruby/2.6.0/gems/public_suffix-3.1.1/
+vendor/cache/ruby/2.6.0/gems/rainbow-3.0.0/
+vendor/cache/ruby/2.6.0/gems/rb-fsevent-0.10.3/
+vendor/cache/ruby/2.6.0/gems/rb-inotify-0.10.0/
+vendor/cache/ruby/2.6.0/gems/rouge-3.5.1/
+vendor/cache/ruby/2.6.0/gems/ruby_dep-1.5.0/
+vendor/cache/ruby/2.6.0/gems/safe_yaml-1.0.5/
+vendor/cache/ruby/2.6.0/gems/sass-3.7.4/
+vendor/cache/ruby/2.6.0/gems/sass-listen-4.0.0/
+vendor/cache/ruby/2.6.0/gems/thread_safe-0.3.6/
+vendor/cache/ruby/2.6.0/gems/typhoeus-1.3.1/
+vendor/cache/ruby/2.6.0/gems/tzinfo-1.2.5/
+vendor/cache/ruby/2.6.0/gems/yell-2.2.0/
+vendor/cache/ruby/2.6.0/specifications/
