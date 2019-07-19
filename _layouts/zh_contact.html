@@ -1,8 +1,8 @@
 <!DOCTYPE html>
-<html lang="vi">
+<html lang="zh">
 
 <head>
-    <meta charset="utf-8">
+    <meta charset="UTF-8">
     {% include base.html %}
     <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
@@ -22,6 +22,7 @@
     <link rel="icon" href="{{ base }}/assets/images/favicon.ico" type="image/x-icon">
     <link rel="shortcut icon" href="{{ base }}/assets/images/favicon.ico" type="image/x-icon">
     <title>{{ page.title }}</title>
+
     <link href="https://fonts.googleapis.com/css?family=Muli:300,400,700,900" rel="stylesheet">
     {% seo %}
 </head>
@@ -40,26 +41,16 @@
 <link rel="stylesheet" href="{{ base }}/assets/css/style.css" lazyload>
 <link rel="stylesheet" href="{{ base }}/assets/fonts/iconfont/iconfont.css" lazyload>
 <div class="site-wrap">
-    {% include i18n/vi/navbar.html%}
+    {% include i18n/zh/navbar.html%}
     <div class="site-section">
         <div class="container">
             <div class="row">
-                <div class="col-lg-6 mb-5">
-                    <span class="section-sub-title d-block">Tìm kiếm phần hỗ trợ của chúng tôi</span>
-                    <h2 class="section-title">Các Câu hỏi Thường gặp</h2>
-                    <h4>Chúng tôi có thể giúp gì cho bạn?</h4>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-8" id="qnaSection">
-                    {{ content }}
-                </div>
+                {{ content }}
             </div>
 
         </div>
-
     </div>
-    {% include i18n/vi/footer.html%}
+    {% include i18n/zh/footer.html%}
 </div>
 <script src="{{ base }}/assets/fonts/iconfont/iconfont.js"></script>
 <script src="{{ base }}/assets/js/jquery-3.3.1.min.js"></script>
@@ -84,13 +75,7 @@
         color: #000000;
     }
 
-    #qnaSection h2 {
-        color: #000000;
-    }
 
-    #qnaSection p {
-
-    }
 </style>
 
 
