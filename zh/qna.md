@@ -3,7 +3,7 @@ layout: zh_qna
 title: 常见问题解答
 description: 
 last_modified_at: 16-Jul-2019
-permalink: /zh/QnA
+permalink: /zh/qna
 ---
 
 # 资金相关
