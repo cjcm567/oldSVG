@@ -57,58 +57,59 @@
 <link rel="stylesheet" href="../assets/css/style.css" lazyload>
 <link rel="stylesheet" href="../assets/fonts/iconfont/iconfont.css" lazyload>
 <div class="site-wrap">
+    <div id="stickyheader">
     <div class="site-mobile-menu site-navbar-target">
-    <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-            <span class="iconfont icon-menuon js-menu-toggle" style="font-size: 2rem;"></span>
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="iconfont icon-menuon js-menu-toggle" style="font-size: 2rem;"></span>
+            </div>
         </div>
+        <div class="site-mobile-menu-body"></div>
     </div>
-    <div class="site-mobile-menu-body"></div>
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <div class="site-logo"><a href="../">CJC Markets</a></div>
+                <div>
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li><a href="../#home-section" class="nav-link">Home</a></li>
+                            <li><a href="../#whycjc-section" class="nav-link">Why CJC?</a></li>
+                            <li><a href="../#services-section" class="nav-link">Services</a></li>
+                            <li><a href="../#platform-section" class="nav-link">Platform</a></li>
+                            <li><a href="../qna" class="nav-link">Support</a></li>
+                            <li class="has-children"><a href="">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-web1"></use>
+                                </svg>
+                            </a>
+                                <ul class="dropdown">
+                                    <li><a href="../vi">tiếng Việt</a></li>
+                                    <li><a href="../zh">中文</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="ml-auto">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">
+                            <li class="cta"><a href="../login" class="nav-link external"><span
+                                    class="border border-primary">Login</span></a></li>
+                        </ul>
+                    </nav>
+                    </nav>
+                    <a href="" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right">
+                        <span class="iconfont icon-menuoff" style="font-size: 2rem;"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
 </div>
-
-<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
-    <div class="container-fluid">
-        <div class="d-flex align-items-center">
-            <div class="site-logo"><a href="/">CJC Markets</a></div>
-            <div>
-                <nav class="site-navigation position-relative text-right" role="navigation">
-                    <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                        <li><a href="../#home-section" class="nav-link">Home</a></li>
-                        <li><a href="../#whycjc-section" class="nav-link">Why CJC?</a></li>
-                        <li><a href="../#services-section" class="nav-link">Services</a></li>
-                        <li><a href="../#platform-section" class="nav-link">Platform</a></li>
-                        <li><a href="../qna" class="nav-link">Support</a></li>
-                        <li class="has-children"><a href="">
-                            <svg class="icon" aria-hidden="true">
-                                <use xlink:href="#icon-web1"></use>
-                            </svg>
-                        </a>
-                            <ul class="dropdown">
-<!--                                <li><a href="../../../index.html">English</a></li>-->
-                                <li><a href="../vi">tiếng Việt</a></li>
-                                <li><a href="../zh">中文</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="ml-auto">
-                <nav class="site-navigation position-relative text-right" role="navigation">
-                    <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">
-                        <li class="cta"><a href="../login" class="nav-link"><span
-                                class="border border-primary">Login</span></a></li>
-                    </ul>
-                </nav>
-                </nav>
-                <a href="../login" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right">
-                    <span class="iconfont icon-menuoff" style="font-size: 2rem;"></span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-</header>
     <div class="site-section">
         <div class="container">
             <div class="row">
@@ -188,8 +189,8 @@ Phone: +64 (9) 2803716</p>
             <div class="row">
                 <div class="col-md-3">
                     <h3>About Us</h3>
-                    <img src="../assets/images/footer_logo.png" alt="footer" width="165" height="64">
-                    <p>Level 2, 3 Margot Street , Epsom, Auckland 1051, New Zealand</p>
+                    <img src="../assets/images/footer_logo.png" alt="footer" width="165" height="57">
+                    <p>Suite 305, Griffith Corporate Centre, Beachmont Kingstown, St.Vincent and the Grenadines</p>
                     <p>+64 (9) 2803716</p>
                 </div>
 
@@ -284,12 +285,11 @@ Phone: +64 (9) 2803716</p>
         </div>
     </footer>
 </div>
-<script src="../assets/fonts/iconfont/iconfont.js"></script>
 <script src="../assets/js/jquery-3.3.1.min.js"></script>
-<script src="../assets/js/jquery-migrate-3.0.1.min.js"></script>
-<script src="../assets/js/jquery-ui.js"></script>
 <script src="../assets/js/popper.min.js"></script>
 <script src="../assets/js/bootstrap.min.js"></script>
+<script src="../assets/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="../assets/js/jquery-ui.js"></script>
 <script src="../assets/js/owl.carousel.min.js"></script>
 <script src="../assets/js/jquery.stellar.min.js"></script>
 <script src="../assets/js/jquery.countdown.min.js"></script>
@@ -298,7 +298,13 @@ Phone: +64 (9) 2803716</p>
 <script src="../assets/js/aos.js"></script>
 <script src="../assets/js/jquery.fancybox.min.js"></script>
 <script src="../assets/js/jquery.sticky.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#stickyheader").sticky({topSpacing:0});
+    });
+</script>
 <script src="../assets/js/main.js"></script>
+<script src="../assets/fonts/iconfont/iconfont.js"></script>
 
 </body>
 
@@ -313,6 +319,19 @@ Phone: +64 (9) 2803716</p>
 
     #qnaSection p {
 
+    }
+
+    .site-logo a{
+        background: linear-gradient(309deg, rgba(16, 2, 92, 1) 0%, rgba(4, 57, 120, 1) 30%, rgba(0, 212, 255, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .site-navbar .site-navigation .site-menu > li > a  {
+        color: #000000;
+    }
+    .row {
+        margin-top: 2rem;
     }
 </style>
 
