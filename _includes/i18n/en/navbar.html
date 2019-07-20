@@ -1,52 +1,53 @@
-<div class="site-mobile-menu site-navbar-target">
-    <div class="site-mobile-menu-header">
-        <div class="site-mobile-menu-close mt-3">
-            <span class="iconfont icon-menuon js-menu-toggle" style="font-size: 2rem;"></span>
+<div id="stickyheader">
+    <div class="site-mobile-menu site-navbar-target">
+        <div class="site-mobile-menu-header">
+            <div class="site-mobile-menu-close mt-3">
+                <span class="iconfont icon-menuon js-menu-toggle" style="font-size: 2rem;"></span>
+            </div>
         </div>
+        <div class="site-mobile-menu-body"></div>
     </div>
-    <div class="site-mobile-menu-body"></div>
+
+    <header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
+
+        <div class="container-fluid">
+            <div class="d-flex align-items-center">
+                <div class="site-logo"><a href="{{ base }}/">CJC Markets</a></div>
+                <div>
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                            <li><a href="{{ base }}/#home-section" class="nav-link">Home</a></li>
+                            <li><a href="{{ base }}/#whycjc-section" class="nav-link">Why CJC?</a></li>
+                            <li><a href="{{ base }}/#services-section" class="nav-link">Services</a></li>
+                            <li><a href="{{ base }}/#platform-section" class="nav-link">Platform</a></li>
+                            <li><a href="{{ base }}/qna" class="nav-link">Support</a></li>
+                            <li class="has-children"><a href="">
+                                <svg class="icon" aria-hidden="true">
+                                    <use xlink:href="#icon-web1"></use>
+                                </svg>
+                            </a>
+                                <ul class="dropdown">
+                                    <li><a href="{{ base }}/vi">tiếng Việt</a></li>
+                                    <li><a href="{{ base }}/zh">中文</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </nav>
+                </div>
+                <div class="ml-auto">
+                    <nav class="site-navigation position-relative text-right" role="navigation">
+                        <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">
+                            <li class="cta"><a href="{{ base }}/login" class="nav-link external"><span
+                                    class="border border-primary">Login</span></a></li>
+                        </ul>
+                    </nav>
+                    </nav>
+                    <a href="" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right">
+                        <span class="iconfont icon-menuoff" style="font-size: 2rem;"></span>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </header>
 </div>
-
-<header class="site-navbar py-4 js-sticky-header site-navbar-target" role="banner">
-
-    <div class="container-fluid">
-        <div class="d-flex align-items-center">
-            <div class="site-logo"><a href="/">CJC Markets</a></div>
-            <div>
-                <nav class="site-navigation position-relative text-right" role="navigation">
-                    <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                        <li><a href="{{ base }}/#home-section" class="nav-link">Home</a></li>
-                        <li><a href="{{ base }}/#whycjc-section" class="nav-link">Why CJC?</a></li>
-                        <li><a href="{{ base }}/#services-section" class="nav-link">Services</a></li>
-                        <li><a href="{{ base }}/#platform-section" class="nav-link">Platform</a></li>
-                        <li><a href="{{ base }}/qna" class="nav-link">Support</a></li>
-                        <li class="has-children"><a href="">
-                            <svg class="icon" aria-hidden="true">
-                                <use xlink:href="#icon-web1"></use>
-                            </svg>
-                        </a>
-                            <ul class="dropdown">
-<!--                                <li><a href="../../../index.html">English</a></li>-->
-                                <li><a href="{{ base }}/vi">tiếng Việt</a></li>
-                                <li><a href="{{ base }}/zh">中文</a></li>
-                            </ul>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
-            <div class="ml-auto">
-                <nav class="site-navigation position-relative text-right" role="navigation">
-                    <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">
-                        <li class="cta"><a href="{{ base }}/login" class="nav-link"><span
-                                class="border border-primary">Login</span></a></li>
-                    </ul>
-                </nav>
-                </nav>
-                <a href="{{ base }}/login" class="d-inline-block d-lg-none site-menu-toggle js-menu-toggle text-black float-right">
-                    <span class="iconfont icon-menuoff" style="font-size: 2rem;"></span>
-                </a>
-            </div>
-        </div>
-    </div>
-
-</header>

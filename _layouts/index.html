@@ -42,12 +42,11 @@
     {{ content }}
     {% include i18n/en/footer.html%}
 </div>
-<script src="{{ base }}/assets/fonts/iconfont/iconfont.js"></script>
 <script src="{{ base }}/assets/js/jquery-3.3.1.min.js"></script>
-<script src="{{ base }}/assets/js/jquery-migrate-3.0.1.min.js"></script>
-<script src="{{ base }}/assets/js/jquery-ui.js"></script>
 <script src="{{ base }}/assets/js/popper.min.js"></script>
 <script src="{{ base }}/assets/js/bootstrap.min.js"></script>
+<script src="{{ base }}/assets/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="{{ base }}/assets/js/jquery-ui.js"></script>
 <script src="{{ base }}/assets/js/owl.carousel.min.js"></script>
 <script src="{{ base }}/assets/js/jquery.stellar.min.js"></script>
 <script src="{{ base }}/assets/js/jquery.countdown.min.js"></script>
@@ -56,16 +55,13 @@
 <script src="{{ base }}/assets/js/aos.js"></script>
 <script src="{{ base }}/assets/js/jquery.fancybox.min.js"></script>
 <script src="{{ base }}/assets/js/jquery.sticky.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#stickyheader").sticky({topSpacing:0});
+    });
+</script>
 <script src="{{ base }}/assets/js/main.js"></script>
+<script src="{{ base }}/assets/fonts/iconfont/iconfont.js"></script>
 </body>
-
-<!--<style scoped>-->
-<!--    #sticky-wrapper a {-->
-<!--        color: #000000;-->
-<!--    }-->
-
-
-<!--</style>-->
-
 
 </html>

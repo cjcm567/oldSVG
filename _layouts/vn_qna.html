@@ -61,12 +61,11 @@
     </div>
     {% include i18n/vi/footer.html%}
 </div>
-<script src="{{ base }}/assets/fonts/iconfont/iconfont.js"></script>
 <script src="{{ base }}/assets/js/jquery-3.3.1.min.js"></script>
-<script src="{{ base }}/assets/js/jquery-migrate-3.0.1.min.js"></script>
-<script src="{{ base }}/assets/js/jquery-ui.js"></script>
 <script src="{{ base }}/assets/js/popper.min.js"></script>
 <script src="{{ base }}/assets/js/bootstrap.min.js"></script>
+<script src="{{ base }}/assets/js/jquery-migrate-3.0.1.min.js"></script>
+<script src="{{ base }}/assets/js/jquery-ui.js"></script>
 <script src="{{ base }}/assets/js/owl.carousel.min.js"></script>
 <script src="{{ base }}/assets/js/jquery.stellar.min.js"></script>
 <script src="{{ base }}/assets/js/jquery.countdown.min.js"></script>
@@ -75,8 +74,13 @@
 <script src="{{ base }}/assets/js/aos.js"></script>
 <script src="{{ base }}/assets/js/jquery.fancybox.min.js"></script>
 <script src="{{ base }}/assets/js/jquery.sticky.js"></script>
+<script>
+    $(document).ready(function(){
+        $("#stickyheader").sticky({topSpacing:0});
+    });
+</script>
 <script src="{{ base }}/assets/js/main.js"></script>
-
+<script src="{{ base }}/assets/fonts/iconfont/iconfont.js"></script>
 </body>
 
 <style scoped>
@@ -90,6 +94,19 @@
 
     #qnaSection p {
 
+    }
+
+    .site-logo a{
+        background: linear-gradient(309deg, rgba(16, 2, 92, 1) 0%, rgba(4, 57, 120, 1) 30%, rgba(0, 212, 255, 1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+    }
+
+    .site-navbar .site-navigation .site-menu > li > a  {
+        color: #000000;
+    }
+    .row {
+        margin-top: 2rem;
     }
 </style>
 
