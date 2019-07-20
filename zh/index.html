@@ -1,7 +1,7 @@
 ---
 title: CJC Markets - 稳定安全高效
 description: 与 CJC 一起感受科技金融的魅力
-last_modified_at: 16-Jul-2019
+last_modified_at: 21-Jul-2019
 permalink: /zh
 ---
 
@@ -44,7 +44,7 @@ permalink: /zh
                 </div>
                 <div class="col-lg-2 ml-auto" data-aos="fade-down-left" data-aos-delay="100">
                     <figure class="img-absolute">
-                        <img src="{{ base }}/assets/images/1.jpg" alt="Image" class="img-fluid">
+                        <img src="{{ base }}/assets/images/landing.jpg" alt="Image" class="img-fluid">
                     </figure>
                 </div>
             </div>
@@ -60,9 +60,7 @@ permalink: /zh
                     <div class="mb-5">
                         <span class="section-sub-title d-block">全球市场引领者</span>
                         <h2 class="section-title">持牌外汇交易商</h2>
-                        <p>CJC Markets 凯利资本持有新西兰政府授权颁发的金融衍生品全牌照，定期接受由第三方独立机构进行的财务和合规审计。同时, CJC Markets承诺严格遵循AML相关法规标准,您的的每一笔资金往来均受到严格审核和监控,以避免出现任何损害投资者利益的行为。
-                            CJC Markets坚持以客户为本，为客户不断创造价值。立志于为投资者提供无可比拟的交易体验，同时不断完善和优化业内领先的交易工具。 通过持续专注于产品优化和提升服务品质，已成功地与世界各地有才华、经验丰富的团队展开深层次合作，并已快速向全球化知名品牌的方向迈进。
-                            金融注册号：FSP569807</p>
+                        <p>CJC Markets 旨在为您提供卓越的交易体验。您的的每一笔资金往来均受到严格审核和监控，以避免出现任何损害投资者利益的行为。CJC Markets坚持以客户为本，为客户不断创造价值。致力于为投资者提供无可比拟的交易体验，同时不断完善和优化业内领先的交易工具。 通过持续专注于产品优化和提升服务品质，已成功地与世界各地有才华、经验丰富的团队展开深层次合作，并已快速向全球化知名品牌的方向迈进。</p>
                     </div>
                 </div>
 
@@ -207,24 +205,7 @@ permalink: /zh
         </div>
     </div>
 
-    <div id="slide-in-cta" class="slide-in-cta container" style="transform: translateX(0px);">
-        <svg class="icon slide-in-cta--close" aria-hidden="true" onclick="closeSlideIn()">
-            <use xlink:href="#icon-close"></use>
-        </svg>
-        <script>
-            function closeSlideIn() {
-                document.getElementById('slide-in-cta').hidden=true;
-            }
-        </script>
-        <h3 class="mb-0">想获取最新动态</h3>
-        <p>订阅精选邮件，定期接收 CJC 关于市场和交易的新闻。</p>
-        <form action="#">
-            <div class="d-flex">
-                <input type="text" class="form-control rounded-0" placeholder="邮箱" style="width: 80%;">
-                <input type="submit" class="btn btn-primary rounded-0" value="订阅">
-            </div>
-        </form>
-    </div>
+    {% include i18n/zh/cta.html%}
 
     {% include i18n/zh/footer.html%}
 

@@ -1,10 +1,10 @@
 ---
 layout: policy
 title: Cookie Policy
-last_modified_at: 15-Jul-2019
+last_modified_at: 21-Jul-2019
 description: CJC Markets Cookies Policy
 ---
-*Last Updated: 15 July, 2019*
+*Last Updated: 21 July, 2019*
 
 This is the Cookie Policy for CJC Markets, accessible from https://www.cjcmarkets.com/
 

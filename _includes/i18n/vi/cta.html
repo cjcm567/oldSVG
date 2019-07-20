@@ -1,0 +1,18 @@
+<div id="slide-in-cta" class="slide-in-cta container" style="transform: translateX(0px);">
+    <svg class="icon slide-in-cta--close" aria-hidden="true" onclick="closeSlideIn()">
+        <use xlink:href="#icon-close"></use>
+    </svg>
+    <script>
+        function closeSlideIn() {
+            document.getElementById('slide-in-cta').hidden=true;
+        }
+    </script>
+    <h3 class="mb-0">Bạn muốn nghe về nó trước tiên?</h3>
+    <p>Đăng ký dịch vụ thư của chúng tôi để nhận trực tiếp về hòm thư của bạn.</p>
+    <form method="POST" action="https://formspree.io/client@cjcmarkets-svg.com">
+        <div class="d-flex">
+            <input type="text" class="form-control rounded-0" placeholder="Email">
+            <input type="submit" class="btn btn-primary rounded-0" value="Đăng ký">
+        </div>
+    </form>
+</div>

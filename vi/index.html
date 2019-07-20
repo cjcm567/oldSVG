@@ -1,7 +1,7 @@
 ---
 title: CJC Markets - Reliable Forex Platform
 description: Thực thi tuyệt vời, an toàn của quỹ và nền tảng dễ sử dụng với nhiều tiện ích
-last_modified_at: 16-Jul-2019
+last_modified_at: 21-Jul-2019
 ---
 
 <!DOCTYPE html>
@@ -43,7 +43,7 @@ last_modified_at: 16-Jul-2019
                 </div>
                 <div class="col-lg-2 ml-auto" data-aos="fade-down-left" data-aos-delay="100">
                     <figure class="img-absolute">
-                        <img src="{{ base }}/assets/images/1.jpg" alt="Image" class="img-fluid">
+                        <img src="{{ base }}/assets/images/landing.jpg" alt="Image" class="img-fluid">
                     </figure>
                 </div>
             </div>
@@ -59,7 +59,8 @@ last_modified_at: 16-Jul-2019
                     <div class="mb-5">
                         <span class="section-sub-title d-block">Về Chúng tôi</span>
                         <h2 class="section-title">Chúng Tôi Coi Trọng Chất Lượng Hơn Số Lượng</h2>
-                        <p>CJC Markets có giấy phép Derivatives Issuer License của Ủy ban Thị trường Tài chính (FMA). Chúng tôi đăng ký trên Financial Service Providers Register (FSPR). Số đăng ký của chúng tôi là FSP 569807. Giấy phép cho phép chúng tôi cung cấp dịch vụ cho khách hàng ở  New Zealand.
+                        <p>
+                            Mục tiêu của chúng tôi là cung cấp cho bạn những kinh nghiệm giao dịch cuối cùng. Chúng tôi đam mê giao dịch trực tuyến, liên tục đổi mới và tìm cách để cải thiện cách khách hàng của chúng tôi đầu tư vào thị trường tài chính.
                         </p>
                     </div>
                 </div>
@@ -208,24 +209,7 @@ last_modified_at: 16-Jul-2019
         </div>
     </div>
 
-    <div id="slide-in-cta" class="slide-in-cta container" style="transform: translateX(0px);">
-        <svg class="icon slide-in-cta--close" aria-hidden="true" onclick="closeSlideIn()">
-            <use xlink:href="#icon-close"></use>
-        </svg>
-        <script>
-            function closeSlideIn() {
-                document.getElementById('slide-in-cta').hidden=true;
-            }
-        </script>
-        <h3 class="mb-0">Bạn muốn nghe về nó trước tiên?</h3>
-        <p>Đăng ký dịch vụ thư của chúng tôi để nhận trực tiếp về hòm thư của bạn.</p>
-        <form action="#">
-            <div class="d-flex">
-                <input type="text" class="form-control rounded-0" placeholder="Email">
-                <input type="submit" class="btn btn-primary rounded-0" value="Đăng ký">
-            </div>
-        </form>
-    </div>
+    {% include i18n/vi/cta.html %}
 
     {% include i18n/vi/footer.html%}
 

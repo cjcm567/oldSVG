@@ -2,7 +2,7 @@
 layout: vn_qna
 title: Các Câu hỏi Thường gặp
 description: Các Câu hỏi Thường gặp
-last_modified_at: 10-Jul-2019
+last_modified_at: 21-Jul-2019
 permalink: /vi/qna
 ---
 

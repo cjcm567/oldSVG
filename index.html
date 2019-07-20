@@ -1,8 +1,8 @@
 ---
-layout: main
+layout: index
 title: CJC Markets - Reliable Forex Platform
 description: Smart Trading Everytime
-last_modified_at: 15-Jul-2019
+last_modified_at: 21-Jul-2019
 ---
 
 <div class="intro-section" id="home-section">
@@ -18,7 +18,7 @@ last_modified_at: 15-Jul-2019
             </div>
             <div class="col-lg-2 ml-auto" data-aos="fade-down-left" data-aos-delay="100">
                 <figure class="img-absolute">
-                    <img src="{{ base }}/assets/images/1.jpg" alt="Image" class="img-fluid">
+                    <img src="{{ base }}/assets/images/landing.jpg" alt="Image" class="img-fluid">
                 </figure>
             </div>
         </div>
@@ -34,12 +34,9 @@ last_modified_at: 15-Jul-2019
                 <div class="mb-5">
                     <span class="section-sub-title d-block">About CJC</span>
                     <h2 class="section-title">We Value More on Quality and not in Quantity.</h2>
-                    <p>CJC Markets holds a Derivatives Issuer License issued by the Financial Markets Authority
-                        (FMA). We are
-                        registered on the Financial Service Providers Register (FSPR). Our registration number
-                        is
-                        FSP 569807.
-                        Our license allows us to issue derivatives to persons in New Zealand.</p>
+                    <p>
+                        Our goal is to provide you with the ultimate trading experience. We're passionate about online trading, constantly innovating and looking to improve the way our clients invest in financial markets.
+                    </p>
                 </div>
 
             </div>
@@ -215,22 +212,4 @@ last_modified_at: 15-Jul-2019
         </div>
     </div>
 </div>
-
-<div id="slide-in-cta" class="slide-in-cta container" style="transform: translateX(0px);">
-    <svg class="icon slide-in-cta--close" aria-hidden="true" onclick="closeSlideIn()">
-        <use xlink:href="#icon-close"></use>
-    </svg>
-    <script>
-        function closeSlideIn() {
-            document.getElementById('slide-in-cta').hidden = true;
-        }
-    </script>
-    <h3 class="mb-0">Want to hear it first?</h3>
-    <p>Subscribe to our newsletter to get the posts directly in your inbox.</p>
-    <form action="#">
-        <div class="d-flex">
-            <input type="text" class="form-control rounded-0" placeholder="Email">
-            <input type="submit" class="btn btn-primary rounded-0" value="Subscribe">
-        </div>
-    </form>
-</div>
+{% include i18n/en/cta.html %}
