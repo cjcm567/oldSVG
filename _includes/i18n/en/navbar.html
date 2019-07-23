@@ -16,11 +16,40 @@
                 <div>
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
-                            <li><a href="{{ base }}/#home-section" class="nav-link">Home</a></li>
+
                             <li><a href="{{ base }}/#whycjc-section" class="nav-link">Why CJC?</a></li>
-                            <li><a href="{{ base }}/#services-section" class="nav-link">Services</a></li>
-                            <li><a href="{{ base }}/#platform-section" class="nav-link">Platform</a></li>
-                            <li><a href="{{ base }}/qna" class="nav-link">Support</a></li>
+
+                            <li class="has-children"><a href="">Products</a>
+                                <ul class="dropdown">
+                                    <li><a href="{{ base }}/products/forex">Foreign Exchange</a></li>
+                                    <li><a href="{{ base }}/products/index">Stock Index</a></li>
+                                    <li><a href="{{ base }}/products/oil">Crude oil</a></li>
+                                    <li><a href="{{ base }}/products/metals">Precious metals</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-children"><a href="">Services</a>
+                                <ul class="dropdown">
+                                    <li><a href="{{ base }}/services/IB">IB</a></li>
+                                    <li><a href="{{ base }}/services/multi-account-manager-solution">MAM</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-children"><a href="">Platform</a>
+                                <ul class="dropdown">
+                                    <li><a href="{{ base }}/platform/mobile">Mobile Trading</a></li>
+                                    <li><a href="{{ base }}/platform/pc">MT4 PC</a></li>
+                                </ul>
+                            </li>
+
+                            <li class="has-children"><a href="">Support</a>
+                                <ul class="dropdown">
+                                    <li><a href="{{ base }}/contact">Contact Us</a></li>
+                                    <li><a href="{{ base }}/support/qna">FAQ</a></li>
+                                </ul>
+                            </li>
+
+
                             <li class="has-children"><a href="">
                                 <svg class="icon" aria-hidden="true">
                                     <use xlink:href="#icon-web1"></use>
@@ -37,8 +66,18 @@
                 <div class="ml-auto">
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">
-                            <li class="cta"><a href="{{ base }}/login" class="nav-link external"><span
-                                    class="border border-primary">Login</span></a></li>
+                            <li class="cta">
+                                <a href="https://trader.cjcmarkets-svg.com/registerMock" class="nav-link external"><span
+                                    class="border border-primary">Demo</span></a>
+                            </li>
+                            <li class="cta">
+                                <a href="https://trader.cjcmarkets-svg.com/register" class="nav-link external"><span
+                                        class="border border-primary">Register</span></a>
+                            </li>
+                            <li class="cta">
+                                <a href="{{ base }}/login" class="nav-link external"><span
+                                        class="border border-primary">Login</span></a>
+                            </li>
                         </ul>
                     </nav>
                     </nav>

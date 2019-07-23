@@ -19,8 +19,8 @@ last_modified_at: 22-Jul-2019
     <meta property="og:url" content="{{ site.url }}{{ page.url }}">
     <meta property="og:image" content="{{ site.url }}/thumbs/{{ page.image }}"/>
     <meta property="og:site_name" content="CJC Markets">
-    <meta property="article:publisher" content="https://www.cjcmarkets.com/"/>
-    <meta property="article:author" content="https://www.cjcmarkets.com/"/>
+    <meta property="article:publisher" content="https://www.cjcmarkets-svg.com/"/>
+    <meta property="article:author" content="https://www.cjcmarkets-svg.com/"/>
     <meta property="article:published_time" content="{{ page.date }}"/>
     <meta property="og:description"
           content="{% if page.description %}{{ page.description }}{% else %}{{ site.description }}{% endif %}">
@@ -52,7 +52,7 @@ last_modified_at: 22-Jul-2019
                     <p class="mb-5">CJC Markets delivers a highly reliable and easy-to-use platform with many useful
                         features.
                     </p>
-                    <p><a href="{{ base }}/#platform-section" class="btn btn-outline-light py-3 px-5">Get Started</a></p>
+                    <p><a href="https://trader.cjcmarkets.com/registerMock" class="btn btn-outline-light py-3 px-5">Get Started</a></p>
 
                 </div>
                 <div class="col-lg-2 ml-auto" data-aos="fade-down-left" data-aos-delay="100">
@@ -91,10 +91,11 @@ last_modified_at: 22-Jul-2019
                                 </svg>
                             </div>
                             <h3>Reliability is the key</h3>
-                            <p>CJC Markets is a NZ based CFD issuer. We hold a Derivatives Issuer License granted by
-                                the
-                                NZ
-                                Financial Market Authority.</p>
+                            <p>
+                                Our goal is to provide you with the ultimate trading experience. We're passionate about
+                                online trading, constantly innovating and looking to improve the way our clients invest
+                                in financial markets.
+                            </p>
                         </div>
                         <img src="{{ base }}/assets/images/iStock-486937322.jpg" alt="Image" class="img-fluid">
                     </div>
@@ -239,12 +240,12 @@ last_modified_at: 22-Jul-2019
 
     {% include i18n/en/platform.html%}
 
-    <div class="site-section" id="contact-section">
+    <div class="site-section bg-image overlay" id="contact-section">
         <div class="container">
             <div class="row justify-content-center">
                 <div class="col-md-7">
-                    <h2 class="section-title mb-3">Get in touch</h2>
-                    <p class="mb-5">Please get in touch using the details below if you have any questions about our
+                    <h2 class="section-title mb-3" style="color: white">Get in touch</h2>
+                    <p class="mb-5" style="color: white">Please get in touch using the details below if you have any questions about our
                         service or
                         products.</p>
 
@@ -277,5 +278,24 @@ last_modified_at: 22-Jul-2019
 <script src="{{ base }}/assets/js/main.js"></script>
 <script src="{{ base }}/assets/fonts/iconfont/iconfont.js"></script>
 </body>
+
+<style>
+    #contact-section {
+        background-image: url("{{ base }}/assets/images/contact_bg.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+    #contact_form input{
+        background: none;
+        color: white;
+    }
+
+    #contact_form textarea{
+        background: none;
+        color: white;
+    }
+</style>
 
 </html>
