@@ -14,12 +14,12 @@
             <div class="d-flex align-items-center">
                 <div class="site-logo"><a href="{{ base }}/">CJC Markets</a></div>
                 <div>
-                    <nav class="site-navigation position-relative text-right" role="navigation">
-                        <ul class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block">
+                    <nav class="site-navigation position-relative text-left" role="navigation">
+                        <ul id="navul" class="site-menu main-menu js-clone-nav mr-auto d-none d-lg-block" style="padding-left: 10px;">
 
                             <li><a href="{{ base }}/#whycjc-section" class="nav-link">Why CJC?</a></li>
 
-                            <li class="has-children"><a href="">Products</a>
+                            <li class="has-children target"><a href="">Products</a>
                                 <ul class="dropdown">
                                     <li><a href="{{ base }}/products/forex">Foreign Exchange</a></li>
                                     <li><a href="{{ base }}/products/index">Stock Index</a></li>
@@ -28,21 +28,21 @@
                                 </ul>
                             </li>
 
-                            <li class="has-children"><a href="">Services</a>
+                            <li class="has-children target"><a>Services</a>
                                 <ul class="dropdown">
                                     <li><a href="{{ base }}/services/IB">IB</a></li>
                                     <li><a href="{{ base }}/services/multi-account-manager-solution">MAM</a></li>
                                 </ul>
                             </li>
 
-                            <li class="has-children"><a href="">Platform</a>
+                            <li class="has-children target"><a href="">Platform</a>
                                 <ul class="dropdown">
                                     <li><a href="{{ base }}/platform/mobile">Mobile Trading</a></li>
                                     <li><a href="{{ base }}/platform/pc">MT4 PC</a></li>
                                 </ul>
                             </li>
 
-                            <li class="has-children"><a href="">Support</a>
+                            <li class="has-children target"><a href="">Support</a>
                                 <ul class="dropdown">
                                     <li><a href="{{ base }}/contact">Contact Us</a></li>
                                     <li><a href="{{ base }}/support/QnA">FAQ</a></li>
@@ -50,11 +50,10 @@
                             </li>
 
 
-                            <li class="has-children"><a href="">
+                            <li class="has-children target"><a href="">
                                 <svg class="icon" aria-hidden="true">
                                     <use xlink:href="#icon-web1"></use>
-                                </svg>
-                            </a>
+                                </svg></a>
                                 <ul class="dropdown">
                                     <li><a href="{{ base }}/vi">tiếng Việt</a></li>
                                     <li><a href="{{ base }}/zh">中文</a></li>
@@ -62,21 +61,42 @@
                             </li>
                         </ul>
                     </nav>
+
+<!--                    <script>-->
+<!--                        var ulContainer = document.getElementById("navul");-->
+<!--                        var lis = ulContainer.getElementsByClassName("has-children");-->
+<!--                        for (var i = 0; i < lis.length; i++) {-->
+<!--                            lis[i].addEventListener("click", function() {-->
+<!--                                var current = document.getElementsByClassName("active");-->
+<!--                                console.log(" hello1 ");-->
+
+<!--                                // If there's no active class-->
+<!--                                if (current.length > 0) {-->
+<!--                                    current[0].className = current[0].className.replace(" active", "");-->
+<!--                                    current[0].focus();-->
+<!--                                    console.log(" hello2 ");-->
+<!--                                }-->
+
+<!--                                // Add the active class to the current/clicked button-->
+<!--                                this.className += " active";-->
+<!--                                this.focus();-->
+<!--                                console.log(" hello3 ");-->
+<!--                            });-->
+<!--                        }-->
+<!--                    </script>-->
                 </div>
                 <div class="ml-auto">
                     <nav class="site-navigation position-relative text-right" role="navigation">
                         <ul class="site-menu main-menu site-menu-dark js-clone-nav mr-auto d-none d-lg-block">
                             <li class="cta">
-                                <a href="https://trader.cjcmarkets-svg.com/registerMock" class="nav-link external"><span
-                                    class="border border-primary">Demo</span></a>
+                                <a href="{{ base }}/register" class="nav-link external">
+                                    <span class="border border-primary">Register</span>
+                                </a>
                             </li>
                             <li class="cta">
-                                <a href="{{ base }}/register" class="nav-link external"><span
-                                        class="border border-primary">Register</span></a>
-                            </li>
-                            <li class="cta">
-                                <a href="{{ base }}/login" class="nav-link external"><span
-                                        class="border border-primary">Login</span></a>
+                                <a href="{{ base }}/login" class="nav-link external">
+                                    <span class="border border-primary">Login</span>
+                                </a>
                             </li>
                         </ul>
                     </nav>
