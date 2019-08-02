@@ -2,7 +2,7 @@
 layout: mam
 title: Multi Account Manager Solution (MAM / PAMM)
 description: CJC offers a high performance Multi Account Manager (MAM) solution that can be customised to your need. With this MAM, the administrative side is taken care of by us, leaving you to excel in your trade management.
-last_modified_at: 21-Jul-2019
+last_modified_at: 2-Aug-2019
 permalink: /services/multi-account-manager-solution
 ---
 

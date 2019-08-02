@@ -2,12 +2,12 @@
 layout: vn_qna
 title: Các Câu hỏi Thường gặp
 description: Các Câu hỏi Thường gặp
-last_modified_at: 21-Jul-2019
+last_modified_at: 2-Aug-2019
 permalink: /vi/qna
 ---
 
 ## Làm thế nào để mở tài khoản demo ? 
-Trên trang (web của chúng tôi)[https://nz.cjcmarkets.com] tìm mục Mở Tài Khoản ở góc trên bên phải của trang web để đăng ký. Sau khi hoàn tất đăng ký, bạn sẽ vào giao dịch ứng dụng tài khoản. Hãy tuân thủ các yêu cầu của thông tin mở tài khoản để hoàn tất thông tin cần thiết ở trang ứng dụng này và gửi mẫu. Sau khi gửi mẫu đăng ký, bạn sẽ nhận một email thông báo về kết quả của tài khoản giao dịch trong vòng 1-3 ngày.
+Trên trang (web của chúng tôi)[https://cjcmarkets-svg.com] tìm mục Mở Tài Khoản ở góc trên bên phải của trang web để đăng ký. Sau khi hoàn tất đăng ký, bạn sẽ vào giao dịch ứng dụng tài khoản. Hãy tuân thủ các yêu cầu của thông tin mở tài khoản để hoàn tất thông tin cần thiết ở trang ứng dụng này và gửi mẫu. Sau khi gửi mẫu đăng ký, bạn sẽ nhận một email thông báo về kết quả của tài khoản giao dịch trong vòng 1-3 ngày.
 
 ## Làm thế nào để mở tài khoản demo ? 
 CJC Markets cung cấp một tài khoản demo miễn phí với quỹ ảo. Điều này cho phép bạn thử nền tảng và thực hành các chiến lược giao dịch và cách sử dụng nền tảng. Để mở tài khoản demo, bạn cần làm là nhấn vào đây hoặc bạn có thể quay lại phần dưới cùng của trang chủ và tìm mục Mở tài khoản demo trong phần **Mở Tài khoản**.
@@ -25,7 +25,7 @@ Bạn có thể nạp tiền trực tiếp vào tài khoản ngân hàng tín th
 Hãy đăng nhập vào trang web của CJC Markets. Nhập yêu cầu rút tiền sau khi hoàn tất thông tin cần thiết. Hãy đảm bảo rằng tài khoản nhận tiền cùng tên với tài khoản của bạn. Mọi yêu cầu chuyển tiền tới bên thứ ba sẽ bị từ chối.
 
 ## Tiền của tôi có an toàn không?
-Theo quy định của New Zealand tất cả tiền của khách hàng được tách hoàn toàn khỏi tiền của công ty và giữ trong tài khoản tín thác của khách hàng trong các ngân hàng lớn ở New Zealand. Điều này đảm bảo rằng tiền của khách hàng không thể được sử dụng vì bất kỳ mục đích khác.
+Theo quy định của tất cả tiền của khách hàng được tách hoàn toàn khỏi tiền của công ty và giữ trong tài khoản tín thác của khách hàng trong các ngân hàng lớn ở. Điều này đảm bảo rằng tiền của khách hàng không thể được sử dụng vì bất kỳ mục đích khác.
 
 ## CJC Markets có thu phí nạp và rút không?
 Chúng tôi không thu phí khi nạp tiền. Phụ thuộc vào dạng rút tiền, có thể bị thu phí. Dạng phí bị thu và số tiền có thể xem trong mục Biểu Phí trên trang web.

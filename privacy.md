@@ -1,7 +1,7 @@
 ---
 layout: policy
 title: Privacy Policy
-last_modified_at: 21-Jul-2019
+last_modified_at: 2-Aug-2019
 description: CJC Markets Privacy Policy
 ---
 *Last Updated: 15 July, 2019* 
