@@ -1,0 +1,58 @@
+<form
+  method="post"
+  action="https://formspree.io/operation.k@cjcmarkets-svg.com"
+>
+  <div class="form-group row">
+    <div class="col-md-6 mb-3 mb-lg-0">
+      <input type="text" id="lastname" required class="form-control" placeholder="姓氏" />
+    </div>
+    <div class="col-md-6">
+      <input type="text" id="firstname" required class="form-control" placeholder="名字" />
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-md-12">
+      <input type="number" minlength="6" maxlength="6" id="accountnumber" required class="form-control" placeholder="账号" />
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-md-12">
+      <input type="email" id="email" required class="form-control" placeholder="邮箱" />
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-md-12">
+        <fieldset>
+        <legend>申请项目</legend>
+        <input
+          type="radio"
+  
+          required
+          name="title"
+          id="r1"
+          value="跟单"
+        /><label for="r1">跟单</label>
+        <input
+          type="radio"
+
+          required
+          name="title"
+          id="r2"
+          value="带单"
+        /><label for="r2">带单</label>
+      </fieldset>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-md-6">
+      <input
+        type="submit"
+        class="btn btn-primary py-3 px-5 btn-block"
+        value="发送"
+      />
+    </div>
+  </div>
+</form>

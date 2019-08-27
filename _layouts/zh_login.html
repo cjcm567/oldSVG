@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="zh-CN">
 
 <head>
     <meta charset="utf-8">
@@ -72,7 +72,26 @@
 </script>
 <script src="{{ base }}/assets/js/main.js"></script>
 <script src="{{ base }}/assets/fonts/iconfont/iconfont.js"></script>
-
+<script>
+        var email = document.getElementById("mail");
+        var accountnumber = document.getElementById("accountnumber");
+      
+        email.addEventListener("input", function(event) {
+          if (email.validity.typeMismatch) {
+            email.setCustomValidity("邮箱格式不正确，请输入正确的格式");
+          } else {
+            email.setCustomValidity("");
+          }
+        });
+      
+        accountnumber.addEventListener("input", function(event) {
+          if (email.validity.typeMismatch) {
+            email.setCustomValidity("账号格式不正确，请输入正确的格式");
+          } else {
+            email.setCustomValidity("");
+          }
+        });
+      </script>
 </body>
 
 <style scoped>
