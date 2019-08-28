@@ -1,0 +1,76 @@
+<form
+  method="post"
+  action="https://formspree.io/operation.k@cjcmarkets-svg.com"
+>
+  <div class="form-group row">
+    <div class="col-md-6">
+      <input
+        type="text"
+        id="firstname"
+        required
+        class="form-control"
+        placeholder="First Name"
+      />
+    </div>
+    <div class="col-md-6 mb-3 mb-lg-0">
+      <input
+        type="text"
+        id="lastname"
+        required
+        class="form-control"
+        placeholder="Last Name"
+      />
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-md-12">
+      <input
+        type="number"
+        minlength="6"
+        maxlength="6"
+        id="accountnumber"
+        required
+        class="form-control"
+        placeholder="MT4 Account Number"
+      />
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-md-12">
+      <input
+        type="email"
+        id="email"
+        required
+        class="form-control"
+        placeholder="Email"
+      />
+    </div>
+  </div>
+  <div class="form-group row">
+    <div class="col-md-12">
+      <fieldset>
+        <legend>Account Types</legend>
+        <input type="radio" required name="title" id="r1" value="跟单" /><label
+          for="r1"
+          >Copy Trading Account</label
+        >
+        <input type="radio" required name="title" id="r2" value="带单" /><label
+          for="r2"
+          >Master Account</label
+        >
+      </fieldset>
+    </div>
+  </div>
+
+  <div class="form-group row">
+    <div class="col-md-6">
+      <input
+        type="submit"
+        class="btn btn-primary py-3 px-5 btn-block"
+        value="Submit"
+      />
+    </div>
+  </div>
+</form>
