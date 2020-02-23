@@ -13,13 +13,13 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: CJC Markets - Reliable Forex Platform
-email: client@cjcmarkets.com
-description: "CJC Markets delivers a highly reliable and easy-to-use platform with many useful features."
+title: One Smart Technology - Reliable Forex Platform
+email: client@onesmartech.com
+description: "One Smart Technology delivers a highly reliable and easy-to-use platform with many useful features."
   
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "http://13.76.217.34:8090/" # the base hostname & protocol for your site, e.g. http://example.com
-author: CJC Markets
+author: One Smart Technology
 twitter_username: ""
 github_username:  ""
 

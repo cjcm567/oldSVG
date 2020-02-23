@@ -2,11 +2,11 @@
 layout: policy
 title: Cookie Policy
 last_modified_at: 21-Jul-2019
-description: CJC Markets Cookies Policy
+description: One Smart Technology Cookies Policy
 ---
 *Last Updated: 21 July, 2019*
 
-This is the Cookie Policy for CJC Markets, accessible from https://www.cjcmarkets.com/
+This is the Cookie Policy for One Smart Technology, accessible from https://www.onesmartech.com/
 
 ## What Are Cookies
 
@@ -50,5 +50,5 @@ Hopefully that has clarified things for you and as was previously mentioned if t
 
 However if you are still looking for more information then you can contact us through one of our preferred contact methods:
 
-Email: client@cjcmarkets.com
+Email: client@onesmartech.com
 Phone: +64 (9) 2803716
