@@ -4,4 +4,4 @@ set -e # halt script on error
 bundle exec jekyll build 
 touch ./_site/.nojekyll # this file tells gh-pages that there is no need to build
 touch ./_site/CNAME
-echo 'cjcmarkets-svg.com' > ./_site/CNAME
+echo 'onesmartech.com' > ./_site/CNAME
