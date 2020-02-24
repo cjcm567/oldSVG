@@ -18,7 +18,7 @@ email: support@onesmartech.com
 description: "One Smart Technology delivers a highly reliable and easy-to-use platform with many useful features."
   
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "https://www.onesmartech.com" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://www.onesmartech.com" # the base hostname & protocol for your site, e.g. https://example.com
 author: One Smart Technology
 twitter_username: ""
 github_username:  ""
