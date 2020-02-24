@@ -8,7 +8,7 @@ description: One Smart Technology Privacy Policy
 
 At One Smart Technology, accessible from https://www.onesmartech.com/, one of our main priorities is the privacy of our visitors. This Privacy Policy document contains types of information that is collected and recorded by One Smart Technology and how we use it.
 
-If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at client@onesmartech.com
+If you have additional questions or require more information about our Privacy Policy, do not hesitate to contact us through email at support@onesmartech.com
 
 ## General Data Protection Regulation (GDPR)
 We are a Data Controller of your information.

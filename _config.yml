@@ -14,7 +14,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 title: One Smart Technology - Reliable Forex Platform
-email: client@onesmartech.com
+email: support@onesmartech.com
 description: "One Smart Technology delivers a highly reliable and easy-to-use platform with many useful features."
   
 baseurl: "" # the subpath of your site, e.g. /blog
