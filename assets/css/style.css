@@ -452,6 +452,7 @@ h5,
     z-index: 1999;
     position: absolute;
     width: 100%;
+    float: right;
 }
 
 .site-navbar .container-fluid {
@@ -459,6 +460,10 @@ h5,
     padding-right: 1rem;
     /*original 7rem*/
 }
+
+/* .site-navbar .container-fluid .d-flex > div {
+    align-self: flex-end;
+} */
 
 .site-navbar .site-navigation.border-bottom {
     border-bottom: 1px solid #f3f3f4 !important;
